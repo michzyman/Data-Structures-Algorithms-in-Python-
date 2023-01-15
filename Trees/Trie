@@ -1,0 +1,13 @@
+Trie or Prefix Tree
+Use cases
+1. searching words on a dictionary 
+2. providing auto suggestionss
+3. search engines
+4. IP routing 
+
+Benefit: Speed and Space 
+
+O(lengthOfWord)
+space: saves a lot of space due to prefix 
+
+

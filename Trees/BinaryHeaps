@@ -1,0 +1,29 @@
+Binary Heap: 2 children to a node
+Every node on the top level has a > value than every node on the next level down 
+It can be used in any algo where ordering is important 
+    Commonly used with priority queues 
+No meaning between left and right therefore lookup is O(n)
+insert O(log n)
+delete O(log n)
+
+Use cases: 
+- great at doing comparative operation 
+- sorting, data storage, priority queues
+
+
+- Max Heap = root node largest
+- Min Heap = root node smallest
+Every 
+
+Priority Queue: type of data where each element has a priority 
+- top to left to right 
+
+Binary Heaps: 
+
+Pros
+1. Better than O(n) - findMax or findMin
+2. priority 
+3. flexible size
+4. fast insert
+Cons
+1. slow look ups 

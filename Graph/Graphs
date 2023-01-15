@@ -1,0 +1,26 @@
+Graphs: Most useful and most used ds in cs when it comes to modeling real life
+- set of values that are related in a pairwise fashion 
+- Node: each item 
+- Edges: nodes are connected with edges 
+
+Graphs 
+    Trees
+        Linked List
+
+Types of Graphs 
+
+1. Directed: Movement is not bidirectional
+    Twitter
+2. Undirected: HighWay you can go back and ford 
+    Facebook 
+
+3. Unweighted: NO cost on the edges between nodes
+4. Weighted: cost on the edges between nodes
+    Fastes way to get from one node to another
+    most efficient way to visit cities
+
+5. Cyclic: a cycle exists you can always go back to the original node
+    Weighted graphs 
+6. Acyclic: no cycle present
+
+DAG = Directed Acyclic Graph
