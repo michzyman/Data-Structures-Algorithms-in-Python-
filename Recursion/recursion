@@ -1,0 +1,50 @@
+Recursion - Is not technically an algorithm
+Common Topic in Interviews
+
+Definition: When you define something in terms of itself 
+    function that refers to itself inside of the function 
+
+example: 
+    def inception():
+        inception()
+
+How it helps us to solve problems: 
+1. tasks that have repeated subtasks to do 
+
+Stack Overflow:
+- If we run the function inception it will happen. The function will be call until the stack is full 
+- Biggest problem with recursion 
+
+The computer needs to allocate memory to remeber things. 
+Stack Overflow can occur when we have recursion, and there is no way to stop this recursive call.
+
+Anatomy of recursion: 
+- Every recursive function should have a base case in order for stack overflow not happen
+    stop calling the function, there is nothing else to search
+
+Rules to build recursion functions 
+1. Identify the base case 
+2. Identify the recursive case 
+3. Get closer and closer and return when nedded. 
+    Usually you have 2 returns
+
+Recursion VS Iterative: 
+    Theorem: anything you do with a recursion CAN be done iteratively (loop)
+    Pros 
+        1. for some problems is easier to write, but it depends on the situation 
+        2. Dry and Readability 
+
+    Cons
+        1. Large Stack - stack overflow
+    TIP: use recursion with DS that you don't how deep they are, you dont know how many loops to go through 
+    Userful: Tree DS and using traversal 
+
+When to Use Recursion? 
+    1. COmplicated problems like traversing or searching through tress and graphs 
+
+    NEW RULE: Every time you are using a tree or converting something into a tree, consider recursion
+        1. Divide into a number of subproblems that are smaller instances of the same problem
+        2. Each instance of the subproblem is identical in nature
+        3. The solutions of each subproblem can be combined to solve the problem at hand 
+        DIVIDE AND CONQUER USING RECURSION
+
