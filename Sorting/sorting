@@ -1,0 +1,36 @@
+Really important for interviews
+
+As more and more data is handled by our computers which is a big trend in computing, 
+sorting and searching are two of the biggest computer science problems in the software world
+
+Sorting Algo:
+Elementary Sort
+    1. Bubble Sort
+    2. Insertion Sort
+    3. Selection Sort
+More complex algo
+    4. Merge Sort
+    5. Quick Sort
+
+Bubble Sort: bubbling up the largest value using mutiple pass through
+6 5 3 1 8 7 2 4 
+5 6 
+5 3 6
+5 3 1 6 
+5 3 1 6 8
+5 3 1 6 7 8
+5 3 1 6 7 2 8 
+5 3 1 6 7 2 4 8 
+And repet this over and over until is sorted
+1 2 3 4 5 6 7 8
+
+Not the most efficient because we need a lot of comparisons
+time complexity O(n^2) space O(1)
+
+
+Selection Sort: works by scanning a list of items for the smallets element and then swapping that element for the one in the first position 
+
+Insertion Sort: 
+preforms really well when we work with small data 
+builds up a sorted list one item at a time. It iterates through an unsorted list, and for each item, it finds the position where the item belongs in the sorted list and then inserts it there
+
