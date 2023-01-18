@@ -34,3 +34,21 @@ Insertion Sort:
 preforms really well when we work with small data 
 builds up a sorted list one item at a time. It iterates through an unsorted list, and for each item, it finds the position where the item belongs in the sorted list and then inserts it there
 
+Merge Sort:
+Most efficient way to sort a list
+Divide and conquer approach (some sort of recursion involved)
+
+Quick Sort:
+It is also a divide and conquer algorithm
+O(n log(n))
+Pretty complex to understand 
+1. Pick random pivot 
+2. I want all numbers that are less than the pivot to go the left and all numbers that are largers to come to the right of the pivot
+3. Split the list and do the same until we have a solution 
+
+
+Insertion sort -> small input and mostly sorted data
+Selection and Bubble -> teaching mechanisim 
+Merge Sort -> really good bc of divide and conquer 
+    worries about space complexity? quick sort
+
